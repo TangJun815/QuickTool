@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root xmlns="">
+  <Group01>
+    <Node Name="常用">
+    <Node Name="快捷操作">
+      <Node Name="桌面临时文件夹" Target="C:\Users\tangj\Desktop\桌面临时文件夹"  Type="Explorer"/>
+      <Node Name="下载" Target="D:\唐军\持续处理\临时文件夹\下载"  Type="Explorer"/>
+      <Node Name="记事本" Target="C:\Windows\system32\notepad.exe" Type="ProcessStart"/>
+      <Node Name="OneNote" Target="C:\Program Files (x86)\Microsoft Office\root\Office16\ONENOTE.EXE" Type="ProcessStart"/>
+      <Node Name="RDP" Target="D:\唐军\网盘\OneDrive\唐军\工作\公司\西网通信\项目处理\日常-操作\RDP"  Type="Explorer"/>
+      <Node Name="唐果儿-成长记录" Target="D:\唐军\网盘\微云同步盘\945045\相关人\唐果儿\成长记录" Type="Explorer"/>
+    </Node>
+    <Node Name="桌面1">
+      <Node Name="快捷1">
+        <Node Name="桌面临时文件夹" Target="C:\Users\tangj\Desktop\桌面临时文件夹"  Type="Explorer"/>
+        <Node Name="下载" Target="D:\唐军\持续处理\临时文件夹\下载"  Type="Explorer"/>
+        <Node Name="Edge" Target="www.bing.com" Type="ProcessStart"/>
+        <Node Name="OneNote" Target="C:\Program Files (x86)\Microsoft Office\root\Office16\ONENOTE.EXE" Type="ProcessStart"/>
+      </Node>
+    </Node>
+    <Node Name="桌面2">
+      <Node Name="快捷1">
+        <Node Name="RDP" Target="D:\唐军\网盘\OneDrive\唐军\工作\公司\西网通信\项目处理\日常-操作\RDP"  Type="Explorer"/>
+        <Node Name="日常操作" Target="D:\唐军\网盘\OneDrive\唐军\工作\公司\西网通信\项目处理\日常-操作"  Type="Explorer"/>
+        <Node Name="小工具" Target="D:\唐军\网盘\OneDrive\唐军\工作\公司\西网通信\项目处理\日常-工具\西网实用小工具\西网业务支撑系统实用工具.exe" Type="ProcessStart"/>
+        <Node Name="SQL" Target="D:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\Ssms.exe" Type="ProcessStart"/>
+      </Node>
+      <Node Name="Visual Studio" Target="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe" Type="ProcessStart"/>
+      <Node Name="SQL" Target="D:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\Ssms.exe" Type="ProcessStart"/>
+    </Node>
+      </Node>
+  </Group01>
+  <Group02>
+    <Node Name="工作">
+      <Node Name="快捷1">
+        <Node Name="RDP" Target="D:\唐军\网盘\OneDrive\唐军\工作\公司\西网通信\项目处理\日常-操作\RDP"  Type="Explorer"/>
+        <Node Name="日常操作" Target="D:\唐军\网盘\OneDrive\唐军\工作\公司\西网通信\项目处理\日常-操作"  Type="Explorer"/>
+        <Node Name="小工具" Target="D:\唐军\网盘\OneDrive\唐军\工作\公司\西网通信\项目处理\日常-工具\西网实用小工具\西网业务支撑系统实用工具.exe" Type="ProcessStart"/>
+        <Node Name="SQL" Target="D:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\Ssms.exe" Type="ProcessStart"/>
+      </Node>
+      <Node Name="Visual Studio" Target="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe" Type="ProcessStart"/>
+      <Node Name="SQL" Target="D:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\Ssms.exe" Type="ProcessStart"/>
+    </Node>
+  </Group02>
+  <Group03>
+    <Node Name="生活">
+      <Node Name="快捷1">
+        <Node Name="桌面临时文件夹" Target="C:\Users\tangj\Desktop\桌面临时文件夹"  Type="Explorer"/>
+        <Node Name="下载" Target="D:\唐军\持续处理\临时文件夹\下载"  Type="Explorer"/>
+        <Node Name="Edge" Target="www.bing.com" Type="ProcessStart"/>
+        <Node Name="OneNote" Target="C:\Program Files (x86)\Microsoft Office\root\Office16\ONENOTE.EXE" Type="ProcessStart"/>
+      </Node>
+    </Node>
+  </Group03>
+</Root>

@@ -1,0 +1,37 @@
+﻿<Window x:Class="MyTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyTool"
+        mc:Ignorable="d"
+        Title=""
+        Height="350" Width="525" WindowStartupLocation="CenterScreen" ShowInTaskbar="True" Icon="Notify/Icon.ico">
+    <Grid>
+        <StackPanel>
+            <GroupBox x:Name="groupBox" Header="桌面1" Margin="0" VerticalAlignment="Top" Height="100">
+                <Grid>
+                    <Button x:Name="btnDesktop1" Content="Edge、Onenote、桌面临时文件夹、下载" Margin="10,10,0,0" Width="249" Click="btnDesktop1_Click" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <Button x:Name="btnFootball" Content="球队资料备份" Click="btnFootball_Click" Height="19" Width="147" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,34,0,0"/>
+                </Grid>
+            </GroupBox>
+            <GroupBox x:Name="groupBox1" Header="桌面2" Margin="0" Height="100">
+
+                <Grid>
+                    <Button x:Name="button" Content="RDP、日常操作、小工具、SQL" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="225" Click="button_Click"/>
+                    <Button x:Name="button22" Content="Visual Studio" HorizontalAlignment="Left" Margin="240,10,0,0" VerticalAlignment="Top" Width="120" Click="ButtonClick" CommandParameter="VS"/>
+                    <Button x:Name="button23" Content="SQL" HorizontalAlignment="Left" Margin="365,10,0,0" VerticalAlignment="Top" Width="80"  Click="ButtonClick" CommandParameter="SQL"/>
+                </Grid>
+            </GroupBox>
+            <GroupBox x:Name="groupBox2" Header="快捷界面" Height="100">
+
+                <Grid>
+                    <Button x:Name="btnTempDesktop" Content="桌面临时文件夹" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="102" Click="ButtonClick" CommandParameter="Folder_DesktopTemp"/>
+                    <Button x:Name="buttonRDP" Content="RDP" HorizontalAlignment="Left" Margin="117,10,0,0" VerticalAlignment="Top" Width="101" Click="ButtonClick" CommandParameter="RDP"/>
+                    <Button x:Name="btnDownload" Content="下载" Click="ButtonClick" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="223,10,0,0" Width="69" CommandParameter="Folder_Download" />
+                    <Button x:Name="btnTangGuoEr" Content="唐果儿-成长记录" Click="ButtonClick" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,34,0,0" Width="102" CommandParameter="Folder_TangGuoEr" />
+                </Grid>
+            </GroupBox>
+        </StackPanel>
+    </Grid>
+</Window>
