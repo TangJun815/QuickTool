@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MyTool"
         mc:Ignorable="d"
         Title=""
-        Height="550" Width="700" WindowStartupLocation="CenterScreen" ShowInTaskbar="False" Icon="Notify/Icon.ico" Topmost="True" ResizeMode="NoResize" Loaded="Window_Loaded" Closing="Window_Closing" LocationChanged="Window_LocationChanged">
+        Height="550" Width="1140" WindowStartupLocation="CenterScreen" ShowInTaskbar="False" Icon="Notify/Icon.ico" Topmost="True" ResizeMode="NoResize" Loaded="Window_Loaded" Closing="Window_Closing" LocationChanged="Window_LocationChanged">
     <Window.Resources>
         <XmlDataProvider x:Name="xdp" x:Key="myTree" Source="TreeData.xml"></XmlDataProvider>
 
@@ -36,6 +36,10 @@
             <TreeView x:Name="tvGroup02" Width="220" ItemsSource="{Binding XPath=Root/Group02/Node, Source={StaticResource myTree}}" 
               ItemTemplate="{StaticResource NodeTemplate}" MouseDoubleClick="tv_MouseDoubleClick" BorderThickness="1" Margin="0,0,0,20"/>
             <TreeView x:Name="tvGroup03" Width="220" ItemsSource="{Binding XPath=Root/Group03/Node, Source={StaticResource myTree}}" 
+              ItemTemplate="{StaticResource NodeTemplate}" MouseDoubleClick="tv_MouseDoubleClick" BorderThickness="1" Margin="0,0,0,20"/>
+            <TreeView x:Name="tvGroup04" Width="220" ItemsSource="{Binding XPath=Root/Group04/Node, Source={StaticResource myTree}}" 
+              ItemTemplate="{StaticResource NodeTemplate}" MouseDoubleClick="tv_MouseDoubleClick" BorderThickness="1" Margin="0,0,0,20"/>
+            <TreeView x:Name="tvGroup05" Width="220" ItemsSource="{Binding XPath=Root/Group05/Node, Source={StaticResource myTree}}" 
               ItemTemplate="{StaticResource NodeTemplate}" MouseDoubleClick="tv_MouseDoubleClick" BorderThickness="1" Margin="0,0,0,20"/>
         </StackPanel>
         <StackPanel Grid.Row="1" Orientation="Horizontal">
